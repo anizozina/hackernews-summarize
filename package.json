@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/vertexai": "^1.1.0",
+    "@slack/webhook": "^7.0.2",
+    "@types/node": "^20.12.7",
+    "axios": "^1.6.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0"
+  },
+  "scripts": {
+    "exec": "node -r ts-node/register --env-file=.env src/index.ts"
+  }
+}
